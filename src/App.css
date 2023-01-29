@@ -259,6 +259,30 @@ ul {
   list-style-type: none;
 }
 
+/* btn */
+.city-btn {
+  background: transparent;
+  border-color: transparent;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+  padding: 0.25rem 0;
+  line-height: 1;
+  outline-color: var(--clr-primary-10);
+}
+.city-btn:hover,
+.city-btn:focus {
+  color: var(--clr-primary-5);
+  box-shadow: 0 2px var(--clr-primary-5);
+}
+.active-btn {
+  font-weight: bold;
+  color: var(--clr-primary-5);
+  box-shadow: 0 2px var(--clr-primary-5);
+}
+
 /* weather */
 .weather-container {
   border: 5px solid white;
